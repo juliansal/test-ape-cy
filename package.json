@@ -1,0 +1,17 @@
+{
+  "name": "test-ape-cy",
+  "version": "1.0.0",
+  "description": "Cypress UI testing for the Test Ape app",
+  "main": "index.js",
+  "author": "Julian Salguero <juliansal.slc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cy:cloud": "cypress run --record --key 9f5cb826-9acb-411c-a025-86d1c153cb10 --browser chrome"
+  },
+  "dependencies": {
+    "cypress": "^13.6.3",
+    "mocha-junit-reporter": "^2.2.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0"
+  }
+}
