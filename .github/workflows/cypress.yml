@@ -12,6 +12,9 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           record: true
+          project: ./
+          browser: chrome
+          start: yarn cy:cloud
         env:
           # pass the Cypress Cloud record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
