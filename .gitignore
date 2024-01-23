@@ -21,4 +21,3 @@ sketch
 !.yarn/versions
 
 !.yarn/cache
-cypress.config.js
