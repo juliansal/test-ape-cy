@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Cypress run
+      - name: Run UI tests
         uses: cypress-io/github-action@v6
         with:
           record: true
